@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AtmosphereClient" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.hofi.Client" />
+    <module name="atmosphere_websockets" />
+    <option name="VM_PARAMETERS" value="-Dlogback.configurationFile=conf/logback.xml" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method />
+  </configuration>
+</component>

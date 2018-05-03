@@ -1,0 +1,7 @@
+.idea/**
+*.iml
+out
+gen
+!/.idea/runConfigurations/AtmosphereClient.xml
+!/.idea/runConfigurations/AtmosphereServer.xml
+!/.idea/runConfigurations/
