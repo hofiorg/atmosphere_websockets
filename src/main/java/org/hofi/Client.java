@@ -20,7 +20,7 @@ public class Client {
     AtmosphereClient client = ClientFactory.getDefault().newClient(AtmosphereClient.class);
     RequestBuilder request = client.newRequestBuilder()
       .method(Request.METHOD.GET)
-      .uri("http://10.2.2.14:5120/endpoint")
+      .uri("http://localhost:8080/endpoint")
       .trackMessageLength(true)
       .encoder(new Encoder<Message, String>() {
         @Override
